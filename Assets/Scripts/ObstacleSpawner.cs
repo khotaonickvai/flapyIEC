@@ -47,7 +47,7 @@ public class ObstacleSpawner : MonoBehaviour {
 				else
 				{
 					// rand never less than zero
-					rand = Random.Range(hardMaxY, hardMaxY);
+					rand = Random.Range(hardMinY, hardMaxY);
 					if (_lastSpawnY > (MAX_PIPE_Y + MIN_PIPE_Y) / 2)
 					{
 						_lastSpawnY -= rand;

@@ -2169,7 +2169,7 @@ MonoBehaviour:
   obstaclePrefab: {fileID: 1556402544744368, guid: 3420925d93c729a48bb3705653b55702,
     type: 3}
   easyMaxY: 1
-  hardMinY: 2
+  hardMinY: 3
   hardMaxY: 4
 --- !u!61 &1991070511
 BoxCollider2D:
